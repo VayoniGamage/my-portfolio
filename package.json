@@ -4,14 +4,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
-  },
-  "dependencies": {
-  
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "...",
+    "vite": "file:...",
     "vite-plugin-gh-pages": "..."
   }
 }
